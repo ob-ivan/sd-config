@@ -1,0 +1,16 @@
+{
+    "name": "ob-ivan/sd-config",
+    "autoload": {
+        "psr-4": {
+            "SD\\Config\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    }
+}
