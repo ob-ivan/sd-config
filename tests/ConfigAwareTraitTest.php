@@ -2,7 +2,6 @@
 namespace tests;
 
 use PHPUnit\Framework\TestCase;
-use SD\Config\ConfigAwareTrait;
 use SD\DependencyInjection\Container;
 
 class ConfigAwareTraitTest extends TestCase
