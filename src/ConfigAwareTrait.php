@@ -13,6 +13,6 @@ trait ConfigAwareTrait
 
     protected function getConfig(string $key)
     {
-        return $this->config[$key];
+        return $this->config[$key] ?? null;
     }
 }
