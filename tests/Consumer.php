@@ -10,7 +10,8 @@ class Consumer implements AutoDeclarerInterface
     use AutoDeclarerTrait;
     use ConfigAwareTrait;
 
-    public function getConsumerConfig() {
+    public function getConsumerConfig()
+    {
         return $this->getConfig('consumer');
     }
 }
